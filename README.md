@@ -12,7 +12,7 @@ A minimal example demonstrating type-safe configuration with Nickel and Nix stor
   - [`network.ncl`](services/nginx/profiles/network.ncl) - Port override
 - **Core Types**: [`types.ncl`](types.ncl)
   Base configuration contracts
-- **Nix Integration**: [`ninject.nix`](ninject.ncl)
+- **Nix Integration**: [`ninject.nix`](ninject.nix)
   Pure path substitution without DSL
 
 ## Usage
