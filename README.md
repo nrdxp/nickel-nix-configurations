@@ -49,7 +49,7 @@ A minimal example demonstrating type-safe configuration with Nickel and Nix stor
 ## Key Features
 
 - **Type-Driven Validation** - Contracts enforce config structure before Nix sees it
-- **Lazy Composition** - Profiles merge via Nickel's native `&` operator
+- **Semantic Preservation** - Uses Nickel's native features to accomplish what the NixOS module system does without breaking lazy evaluation or complicating evaluation
 - **Pure Path Injection** - Simple regex replacement in [`ninject.nix`](ninject.nix)
 - **Team Scalability** - Profile system allows isolated overrides
 - **Seperation of Concerns** - Configuration is decoupled from Nix evaluation
