@@ -2,6 +2,8 @@
 
 A minimal example demonstrating type-safe configuration with Nickel and Nix store path injection.
 
+You can check out my blog for what I feel is [wrong with the existing NixOS module system](https://nrd.sh/blog/nix-to-eos/#unbounded-hell-reducing-complexity-in-order-to-ascend).
+
 ## Key Components
 
 - **Service Contracts**: [`services/nginx/contract.ncl`](services/nginx/contract.ncl)
