@@ -54,6 +54,7 @@ A minimal example demonstrating type-safe configuration with Nickel and Nix stor
 
 ## TODO for MVP
 
+- **Flesh out types** - Types are barebones for demonstration purposes, but could be fleshed out to provide more structure
 - **Expand Example** - Write a few more services to demonstrate how services might interact
 - **Implement Library Code** - Write library functions to automate the Nickel profile merging and high-level service merging
 - **Build an Output** - Build an actual derivation based on the generated configuration, demonstrating how one might build individual services, or even an entire system
