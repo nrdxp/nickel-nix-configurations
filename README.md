@@ -23,6 +23,7 @@ A minimal example demonstrating type-safe configuration with Nickel and Nix stor
    ```
 2. **Inject Nix Store Paths**:
    ```
+   # requires Nix installation
    ./run.sh services/nginx | jq
    ```
 
