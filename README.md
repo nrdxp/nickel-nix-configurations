@@ -51,6 +51,7 @@ You can check out my blog for what I feel is [wrong with the existing NixOS modu
 ## Key Features
 
 - **Type-Driven Validation** - Contracts enforce config structure before Nix sees it
+- **Naturally Compoasable** - One can theoretically evaluate a single service in isolation or include it into a large system configuration
 - **Semantic Preservation** - Uses Nickel's native features to accomplish what the NixOS module system does without breaking lazy evaluation or complicating evaluation
 - **Pure Path Injection** - Simple regex replacement in [`ninject.nix`](ninject.nix)
 - **Team Scalability** - Profile system allows isolated overrides
